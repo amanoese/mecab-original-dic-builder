@@ -1,6 +1,6 @@
 FROM ubuntu
 
-RUN apt-get update && apt-get install -y mecab libmecab-dev mecab-ipadic-utf8 build-essential wget curl jq nkf
+RUN apt-get update && apt-get install -y mecab libmecab-dev mecab-ipadic-utf8 build-essential wget nkf
 
 ## create workspace
 VOLUME /MECAB
