@@ -2,5 +2,6 @@
 /words/*
 /dist/*
 
+!/dist/COPYING
 ## track gitkeep dir
 !**/.gitkeep

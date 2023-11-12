@@ -28,6 +28,8 @@ dist/ にcsvファイルが出力されます。
    - 単語に自動コスト推定でコストを追加したファイル
  - dist/original.dic
    - ユーザー辞書ファイル
+ - dist/COPYING
+   - ipadicの著作権表示
 
 ## purpose
 Mecabで利用できる辞書は、2023/11/13現在の以下の３つが有力です。  
