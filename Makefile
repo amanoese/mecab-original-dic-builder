@@ -9,6 +9,7 @@ build:
 
 dist:
 	docker create $(IMAGE_NAME) | xargs -I@ sh -c '\
+		docker cp @:/app/COPYING ./dist ;\
 		docker cp @:/app/add_cost.csv ./dist ;\
 		docker cp @:/app/original.dic ./dist ;\
 		docker rm @\

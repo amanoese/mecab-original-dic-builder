@@ -28,6 +28,9 @@ COPY ./words /words
 VOLUME /app
 WORKDIR /app
 
+## copy LICENSE
+RUN cp ${MECAB_DIC}/COPYING /app/COPYING
+
 ## cost
 WORKDIR /app
 RUN /usr/lib/mecab/mecab-dict-index -m ${MECAB_WORK}/model -d ${MECAB_DIC} -u add_cost.csv -f utf-8 -t utf-8 -a /words/*.csv
