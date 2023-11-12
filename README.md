@@ -29,7 +29,7 @@ dist/ にcsvファイルが出力されます。
  - dist/original.dic
    - ユーザー辞書ファイル
 
-## 目的
+## purpose
 Mecabで利用できる辞書は、2023/11/13現在の以下の３つが有力です。  
 ipadic, neologd, UniDic  
 
