@@ -2,8 +2,5 @@
 /words/*
 /dist/*
 
-## add samplefiles
-!/words/sample.csv
-
 ## track gitkeep dir
 !**/.gitkeep
